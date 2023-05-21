@@ -17,7 +17,8 @@ The Calculator project is an interactive web-based calculator implemented using 
 ## Contact
 
 For any further information or inquiries, feel free to contact me at:
-- Email: your-email@example.com
-- Twitter: [@your-twitter-handle](https://twitter.com/your-twitter-handle)
+- Linkedin: <a href="https://www.linkedin.com/in/charan-kodali-1b9639208/" target="_blank">charankodali</a>
+
+- Twitter: <a href="https://twitter.com/charan_kodali" target="_blank">@charan_kodali</a>
 
 I am grateful for the opportunity to complete these projects during my front-end internship and appreciate your interest in my work!
