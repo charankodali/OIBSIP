@@ -2,15 +2,15 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@600&display=swap');
-@import url(font);
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 
 /*other css files imports*/
 
 @import url("section/header.css");
 @import url("section/hero.css");
-@import url("section/hero.css");
+@import url("section/discover.css");
 @import url("section/aboutus.css");
-@import url("section/footer.css")
+@import url("section/footer.css");
 
 /*css color*/
 
