@@ -186,12 +186,21 @@ h1{
     .ACHIEVEMENTS{
         max-width:100%;
     }
+    h1{
+        font-size:2rem;
+    }
+    .list-group{
+        font-size:0.8rem;
+    }
     .DavidGoggins-Picture{
         max-width:90vw;
         max-height:100vh;
     }
-    ..DavidGoggins-Uniform{
+    .DavidGoggins-Uniform{
         max-width:100vw;
+    }
+    .footer-line{
+        font-size:0.7rem;
     }
  
   }
