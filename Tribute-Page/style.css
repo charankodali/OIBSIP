@@ -4,3 +4,194 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+body{
+    background-color:black;
+}
+
+
+/*header-section*/
+
+nav{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:30px;
+}
+hr{
+    border:2px solid white;
+    border-radius:20px;
+}
+.nav-line{
+    width:50%;
+}
+video{
+ max-width:50rem;
+ max-height:auto;
+}
+
+/*article-section*/
+
+.article-section{
+    background-color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:60px 60px 0px 60px;
+}
+.article-info{
+    max-width:100vw;
+    max-height:100vh;
+}
+
+.heading-one{
+    font-size:1.7rem;
+    font-wight:2rem;
+    font-family: 'Kanit', sans-serif;
+}
+.passage-one{
+    font-family: 'Nunito', sans-serif;
+    font-size:0.8rem;
+    font-weight:2rem;
+    padding:20px 0px 0px 20px
+}
+
+
+/*ACHIEVEMENTS-section*/
+
+.ACHIEVEMENTS-section{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    color:white;
+}
+.DavidGoggins-Uniform{
+    max-width:100vw;
+    max-height:100vh;
+}
+.ACHIEVEMENTS{
+    display:flex;
+    flex-direction:column;
+    align-items:left;
+    width:60%;
+}
+h1{
+    font-size:2.3rem;
+    font-wight:2rem;
+    font-family: 'Kanit', sans-serif;
+    padding:30px 30px 10px 0px;
+}
+.list-group{
+    font-family: 'Nunito', sans-serif;
+    font-size:1rem;
+    font-weight:2rem;
+    line-height:40px;
+    padding: 0px 0px 0px 21px;
+}
+
+/*Fourth-Section*/
+
+.fourth-section{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    gap:50px;
+    padding-bottom:50px;
+}
+
+.Book-line{
+    padding:100px 30px 0px 30px;
+    width:60%;
+}
+.fourth-section-line{
+    color:white;
+    text-align:center;
+    padding-bottom:40px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.Book-Section{
+    display:flex;
+    justify-content:center;
+}
+.Book-value{
+    max-width:70vw;
+    max-height:70vh;
+}
+
+
+/*footer-section*/
+
+.container{
+    background-color:#07162D;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px;
+}
+
+.footer-line{
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+
+}
+.footer-ul{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:10px;
+}
+.footer-icons{
+    width:34px;
+    height:34px;
+}
+
+/*meida-querys*/
+
+@media screen and (max-width: 1440px) {
+    .article-info{
+        max-width:80vw;
+        max-height:80vh;
+    }
+    
+    .heading-one{
+        font-size:1.2rem;
+        font-wight:2rem;
+    }
+    .passage-one{
+        font-size:0.7rem;
+
+    }
+    .ACHIEVEMENTS{
+        max-width:50%;
+    }
+    h1{
+        font-size:2.3rem;
+        font-wight:2rem;
+    }
+    .list-group{
+        font-family: 'Nunito', sans-serif;
+        font-size:1rem;
+    }
+    
+  }
+
+  @media screen and (max-width: 670px){
+
+    .article-section,.ACHIEVEMENTS-section,.fourth-section,.Book-Section{
+        display:flex;
+        flex-direction:column;
+    }
+    .ACHIEVEMENTS{
+        max-width:100%;
+    }
+    .DavidGoggins-Picture{
+        max-width:90vw;
+        max-height:100vh;
+    }
+    ..DavidGoggins-Uniform{
+        max-width:100vw;
+    }
+ 
+  }
